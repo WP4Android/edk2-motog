@@ -17,25 +17,31 @@ Motorola G Fast = rav_t
 
 ## Building
 
-> mkdir edk2-porting && cd edk2-porting
-> 
-> git clone https://github.com/tianocore/edk2.git --recursive
->
-> git clone https://github.com/tianocore/edk2-platforms.git
-> 
-> git clone https://github.com/AndroidDevice-Porting/edk2-motog.git
-> 
-> cd edk2 && make -C Basetools/
-> 
-> source edksetup.sh
-> 
-> cd ../edk2-motog
-> 
-> chmod +x build.sh
-> 
-> chmod +x build_common.sh
->
-> bash build.sh
+sudo apt update
+
+sudo apt upgrade
+
+sudo apt install build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu abootimg python3-distutils python3-pil python3-git
+
+mkdir edk2-porting && cd edk2-porting
+
+git clone https://github.com/tianocore/edk2.git --recursive
+
+git clone https://github.com/tianocore/edk2-platforms.git
+
+git clone https://github.com/AndroidDevice-Porting/edk2-motog.git
+
+cd edk2 && make -C Basetools/
+
+source edksetup.sh
+
+cd ../edk2-motog
+
+chmod +x build.sh
+
+chmod +x build_common.sh
+
+bash build.sh
 
 ## Status
 
