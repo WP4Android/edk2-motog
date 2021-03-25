@@ -17,13 +17,19 @@ Motorola G Fast = rav_t
 
 ## Building
 
+### First steps
+
 sudo apt update
 
 sudo apt upgrade
 
 sudo apt install build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu abootimg python3-distutils python3-pil python3-git
 
-mkdir edk2-porting && cd edk2-porting
+mkdir edk2-porting
+
+cd edk2-porting
+
+### Next steps (If you have already completed the First steps and don't want issues.)
 
 git clone https://github.com/tianocore/edk2.git --recursive
 
