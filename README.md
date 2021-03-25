@@ -35,7 +35,7 @@ git clone https://github.com/tianocore/edk2.git --recursive
 
 git clone https://github.com/tianocore/edk2-platforms.git
 
-git clone https://github.com/AndroidDevice-Porting/edk2-motog.git
+git clone https://github.com/LumiaOS4Android/edk2-motog.git
 
 cd edk2 && make -C Basetools/
 
