@@ -63,3 +63,17 @@ __All Phone Models__
 ## Device Specifics?
 
 **Looking at some of the other device specs online, the storage size differs. But the storage type seems the same. Some also have the Android 11 update, while some don't. Lastly, the screen resolution on the Moto G8 is 720x1560. So keep these in mind when you are trying to use this / help with it.**
+
+## Device Picture
+
+<img src="https://images-na.ssl-images-amazon.com/images/I/61XOOWH7pCL._AC_SL1000_.jpg" width="425" height="500" />
+
+Basic   | Spec Sheet
+-------:|:--------------------------------------------------------------------
+CPU     | Qualcomm Snapdragon 665
+Memory  | 4GB
+Shipped OS | Android 10 Q
+Storage | 128GB / 64GB
+Battery | 4000 mAh / 5000 mAh
+Display | 6.4" 1080x2300 pixels / 6.4" 720x1560 pixels
+Camera  | Triple 48MP+16MP+2MP / Triple 16MP+8MP+2MP / Quad 16MP+8MP+8MP+2MP
